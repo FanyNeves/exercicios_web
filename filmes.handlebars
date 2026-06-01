@@ -1,9 +1,11 @@
-<h1>Catálogo de Filmes</h1>
+<h1>Catálogo de Filmes com Ano</h1>
 
 <ul>
- 
+
   {{#each filmes}}
-    <li>{{this}}</li>
+    <li>
+      <strong>Nome:</strong> {{nome}} | <strong>Ano:</strong> {{ano}}
+    </li>
   {{/each}}
- 
 </ul>
+

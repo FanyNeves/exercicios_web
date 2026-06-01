@@ -171,3 +171,20 @@ app.get(
     contaBloqueada: false // Mude para true para testar o 'unless'
   });
 });*/
+
+// Questão 16
+
+/*app.get('/filmes', (req, res) => {
+
+  const listaDeFilmes = [
+    { nome: 'Matrix', ano: 1999 },
+    { nome: 'Interestelar', ano: 2014 },
+    { nome: 'Vingadores: Ultimato', ano: 2019 },
+    { nome: 'Avatar: O Caminho da Água', ano: 2022 }
+  ];
+
+  
+  res.render('filmes', {
+    filmes: listaDeFilmes
+  });
+});*/
