@@ -74,25 +74,36 @@ app.listen(
 
 // Questão 6
 
-app.get (
+/*app.get (
     '/usuario/:id',
     (req,res) => {
         res.send(req.params.id);
-    });
+    });*/
+
 
 
 
 
 // Questão 7
-app.get(
+
+/*app.get(
     '/produtos/:nome',
     (req,res) => {
         res.send(req.params.nome)
-    });
+    });*/
+
 
 
 
 // Questão 8
+
+app.get(
+    '/filmes/:id/:nome'
+    (req,res) => {
+        res.send(req.params.id.nome)
+    });
+
+
 
 
 
