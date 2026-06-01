@@ -122,9 +122,15 @@ app.listen(
 
 // Questão 11
 
-app.get(
+/*app.get(
     '/usuarios',
     (req,res) => {
          const idade = req.query.idade;
          res.send(req.query.idade);
-    });
+    });*/
+
+    // para rodar: usuarios?idade=16
+
+   // Questão 12
+
+   
