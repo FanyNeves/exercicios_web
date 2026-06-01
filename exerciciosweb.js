@@ -161,3 +161,13 @@ app.get(
         filmes: listadeFilmes
        });
     });*/
+
+    // Questão 15
+
+    /*app.get('/status', (req, res) => {
+  res.render('status', {
+    nome: 'Fany',
+    isVip: true,        // Mude para false para testar o 'else'
+    contaBloqueada: false // Mude para true para testar o 'unless'
+  });
+});*/

@@ -1,0 +1,19 @@
+<h1>Status da Conta</h1>
+<p>Olá, {{nome}}!</p>
+
+<!-- 1. Testando o IF e o ELSE -->
+{{#if isVip}}
+  <p> Você é um usuário VIP!</p>
+{{else}}
+  <p> Você é um usuário Comum.</p>
+{{/if}} 
+
+<hr>
+
+<!-- 2. Testando o UNLESS -->
+{{#unless contaBloqueada}}
+  <p>Sua conta está Ativa e funcionando normalmente.</p>
+{{else}}
+  <p>Alerta: Sua conta está Bloqueada.</p>
+{{/unless}}
+
