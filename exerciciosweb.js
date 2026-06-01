@@ -97,11 +97,15 @@ app.listen(
 
 // Questão 8
 
-app.get(
-    '/filmes/:id/:nome'
+/*app.get(
+    '/filmes/:id/:nome',
     (req,res) => {
-        res.send(req.params.id.nome)
-    });
+
+    const id = req.params.id;
+    const nome = req.params.nome;
+
+       res.send(`ID do filme: ${id} | Nome do filme: ${nome}`);
+    });*/
 
 
 
