@@ -133,4 +133,19 @@ app.listen(
 
    // Questão 12
 
+/*<h1> Bem-Vindo ao sistema!</h1>*/
    
+// Questão 13
+
+/*app.get('/', (req, res) => {
+  res.render('home');
+});
+
+app.get(
+    '/perfil',
+    (req,res) => {
+        res.render('perfil', {
+            nome: 'Fany',
+            idade: 16
+        });
+    });*/
