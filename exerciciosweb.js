@@ -83,8 +83,12 @@ app.get (
 
 
 
-
 // Questão 7
+app.get(
+    '/produtos/:nome',
+    (req,res) => {
+        res.send(req.params.nome)
+    });
 
 
 
