@@ -14,9 +14,6 @@ app.get("/filmes/:id",
 });*/
 
 
-
-
-
 // Questão 1
 /*app.get(
     '/',
@@ -54,7 +51,6 @@ app.get(
     });
 
 
-
 //Questão 5
 
 
@@ -63,7 +59,6 @@ app.get(
     (req,res) => {
         res.redirect('/sobre')
     });*/
-
 
 
 app.listen(
@@ -81,9 +76,6 @@ app.listen(
     });*/
 
 
-
-
-
 // Questão 7
 
 /*app.get(
@@ -91,9 +83,6 @@ app.listen(
     (req,res) => {
         res.send(req.params.nome)
     });*/
-
-
-
 
 // Questão 8
 
@@ -110,10 +99,23 @@ app.listen(
 
 // Questão 9
 
-app.get(
+/*app.get(
     '/buscar',
     (req,res) => {
         res.send(req.query.nome)
-    });
+    });*/
 
 // para rodar: buscar?nome=fany
+
+
+// Questão 10
+
+    app.get(
+        '/produtos', 
+        (req, res) => {
+ 
+  const categoria = req.query.categoria;
+  const pagina = req.query.pagina;
+
+  res.send(`Categoria buscada: ${categoria} <br> Página: ${pagina}`);
+});
