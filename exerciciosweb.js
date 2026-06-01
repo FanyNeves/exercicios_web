@@ -110,7 +110,7 @@ app.listen(
 
 // Questão 10
 
-    app.get(
+   /* app.get(
         '/produtos', 
         (req, res) => {
  
@@ -118,4 +118,13 @@ app.listen(
   const pagina = req.query.pagina;
 
   res.send(`Categoria buscada: ${categoria} <br> Página: ${pagina}`);
-});
+});*/
+
+// Questão 11
+
+app.get(
+    '/usuarios',
+    (req,res) => {
+         const idade = req.query.idade;
+         res.send(req.query.idade);
+    });
