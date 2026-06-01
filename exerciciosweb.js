@@ -108,11 +108,12 @@ app.listen(
     });*/
 
 
-
-
-
 // Questão 9
 
+app.get(
+    '/buscar',
+    (req,res) => {
+        res.send(req.query.nome)
+    });
 
-
-
+// para rodar: buscar?nome=fany
