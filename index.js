@@ -6,7 +6,7 @@ app.engine('handlebars', exphbs.engine({defaultLayout:false}));
 app.set('view engine', 'handlebars');
 
 
-app.get('/', (req, res) => {
+/*app.get('/', (req, res) => {
   res.render('home');
 });
 
@@ -16,7 +16,18 @@ app.get('/perfil', (req, res) => {
         nome: 'Fany',
         idade: 16
     });
-});
+});*/
+
+
+  /*app.get(
+        '/filmes',
+       (req,res) => {
+        const listadeFilmes = ['Matrix', 'Interstelar', 'Vingadores', 'Avatar'];
+    
+       res.render('filmes', {
+        filmes: listadeFilmes
+       });
+    });*/
 
 
 app.listen(3000, () => {

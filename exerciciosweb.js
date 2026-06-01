@@ -149,3 +149,15 @@ app.get(
             idade: 16
         });
     });*/
+
+    // Questão 14
+
+    /*app.get(
+        '/filmes',
+       (req,res) => {
+        const listadeFilmes = ['Matrix', 'Interstelar', 'Vingadores', 'Avatar'];
+    
+       res.render('filmes', {
+        filmes: listadeFilmes
+       });
+    });*/
